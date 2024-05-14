@@ -1,0 +1,296 @@
+
+/*--=============== Body ===============*/
+
+.AboutUs{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.AboutUs_intro{
+    width: 100%;
+    height: 513px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.AboutUs_title{
+    color: white;
+    font-size: 100px;
+    font-family: Lobster;
+    line-height: 100px;
+}
+
+.DivWhoWeAre{
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.AboutUs_imgs{
+    gap: 100px;
+    margin-top: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AboutUs_img{
+    width: 500px;
+    height: 548px;
+    border-radius: 5px;
+}
+.WhoAreWe_container{
+    font-family: Roboto;
+    gap: 27px;
+    margin-top: -104px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.WhoAreWe_title{
+    color: #255946;
+    font-size: 40px;
+    font-weight: 700;
+}
+.WhoAreWe_p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+.OurMissionAndVision_container{
+    gap: 40px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Container_Header{
+    color: #255946;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.paragraphs_group{
+    gap: 50px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OurVision_container,
+.OurMission_containr{
+    width: 50%;
+    gap: 40px;
+    padding: 40px 70px;
+    margin-top: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.OurVision_container:hover,
+.OurMission_containr:hover{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.OurMission_Btn,
+.OurVision_Btn{
+    gap: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visionandmissionicon{
+    padding: 40px;
+    background-color: #255946;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #FFF;
+}
+.visionAndMission_txt{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.txttitle{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+}
+.txtsuptitle{
+    color: #000;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-weight: 500;
+}
+.readmore{
+    color: #255946;
+    text-decoration: none;
+}
+.OurVision_p,
+.OurMission_p{
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    transition: 0.5s;
+    transform: translateY(50%);
+    opacity: 0;
+    display: none;
+}
+.OurVision_p.active,
+.OurMission_p.active{
+    transform: translateY(0%);
+    opacity: 1;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 250px) and (max-device-width: 1024px){
+
+
+    .AboutUs_intro{
+        height: 200px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    .AboutUs_title{
+        font-size: 40px;
+    }
+    .AboutUs_imgs{
+       display: none;
+    }
+    .WhoAreWe_container{
+        margin-top: 54px;
+        
+        display: grid;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .DivWhoWeAre{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .WhoAreWe_title{
+        font-size: 25px;
+    }
+    .WhoAreWe_p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    
+    
+    .Container_Header{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .paragraphs_group{
+        gap: 0px;
+        padding: 0px 30px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .OurVision_container,
+    .OurMission_containr{
+        width: 100%;
+        gap: 20px;
+        padding: 25px;
+        margin-top: 100px;
+    }
+    .OurMission_Btn,
+    .OurVision_Btn{
+        gap: 21px;
+    }
+    .visionandmissionicon{
+        padding: 20px;
+    }
+    .txttitle{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .txtsuptitle{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .readmore{
+        font-size: 14px;
+    }
+    .OurVision_p,
+    .OurMission_p{
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 250px) and (max-width: 490px){
+ 
+
+}
+
+
+
+
+
+
+@media only screen and (min-width : 601px) and (max-width: 1024px){
+
+    .AboutUs_intro{
+        height: 416px;
+    }
+    .AboutUs_title{
+        font-size: 80px;
+    }
+    .WhoAreWe_title{
+        font-size: 40px;
+    }
+    .WhoAreWe_p{
+        font-size: 16px;
+    }
+   
+
+    .visionandmissionicon{
+        padding: 30px;
+    }
+    .txttitle{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .txtsuptitle{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .readmore{
+        font-size: 18px;
+    }
+    .OurVision_p,
+    .OurMission_p{
+        font-size: 18px;
+    }
+}

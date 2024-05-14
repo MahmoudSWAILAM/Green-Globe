@@ -1,0 +1,1157 @@
+
+/*--=============== body intro ===============*/
+
+
+.Intro_container{
+    padding: 150px 116px;
+    height: 850.5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+}
+.intro_text{
+    gap: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: inline-flex;
+    color: white;
+}
+.intro_title{
+    width: 322px;
+    height: 25px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.description{
+    gap: 45px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+.Heading1Pure100{
+    font-size: 100px;
+    font-family: Lobster;
+    line-height: 100px;
+}
+.intro_p{
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--=============== Featuers ===============*/
+
+.Featuers_container{
+    margin-top: -90px;
+}
+.Featuers_frame{
+    width: 100%;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.DivSingleFeatuerBox{
+    height: 317.08px;
+    padding-bottom: 0.01px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.Heading2{
+    align-self: stretch;
+    height: 80.59px;
+    padding-bottom: 7.5px;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+}
+.Featuers_title{
+    text-align: center;
+    color: #255946;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Before{
+    background: #D9D9D9;
+    border-left: 30px white solid;
+    border-top: 20px white solid;
+    border-right: 30px white solid;
+}
+
+
+
+
+
+
+
+
+
+/*--=============== About Us Area ===============*/
+
+
+.DivAboutArea{
+    gap: 108px;
+    margin-top: 100px;
+    display: inline-flex;
+}
+.AboutPng{
+    margin-left: 72px;
+    border-radius: 5px;
+}
+.About_content{
+    font-weight: 700;
+    flex-direction: column;
+    display: inline-flex;
+}
+.About_title{
+    color: #87C03D;
+    font-size: 16px;
+    font-family: Lobster;
+    text-transform: uppercase;
+    line-height: 20.80px;
+    letter-spacing: 4px;
+}
+.AboutUS_text1{
+    color: #255946;
+    font-size: 40px;
+    line-height: 48px;
+}
+.AboutUS_text2{
+    color: #255946;
+    font-size: 39px;
+    line-height: 46.80px; 
+}
+.AboutUS_text3{
+    color: #6E7673;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.ExperiencedFarmers_Solutions_frame{
+    margin-top: 50px;
+    gap: 90px;
+    display: flex;
+}
+.ExperiencedFarmers,
+.Solutions{
+    gap: 30px;
+    display: flex;
+}
+.AboutUS_text4,
+.AboutUS_text5{
+    color: #255946;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.AboutUS_text6{
+    color: #6E7673;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+.About_btn{
+    margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+/*--=============== Slider area ===============*/
+.slider_bigbox{
+    padding: 0 50px;
+    gap: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.slide_container{
+    width: 100%;
+    padding: 70px 0px;
+}
+.swiper_navBtn{
+    color: #EFB443;
+    transition: 0.3s ease;
+}
+.swiper_navBtn::before,
+.swiper_navBtn::after{
+    font-size: 40px;
+}
+.swiper-pagination-bullet{
+    background-color: #87C03D;
+}
+.swiper-pagination-bullet-active{
+    background-color: #EFB443;
+}
+.slider_title{
+    color: #1C1C1C;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card_slide{
+    border-radius: 25px;
+}
+.DivSingleProductBox{
+    width: 350px;
+    height: 279.50px;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px #EDE9DA solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #87C03D;
+    transition: 0.3s;
+
+    box-shadow: 
+      0em 0em 0 0 rgba(0, 0, 0, 0.10),
+      inset 0em 0em 0 0 rgba(0, 0, 0, 0.35);
+}
+
+.Product_img{
+    width: 100px;
+    height: 75px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: normal;
+}
+.Product_name{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.Produsct_discription{
+    width: 322px;
+    height: 114px;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 25.50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--=============== Why Choose Us area ===============*/
+
+
+.WhyChooseUs_container{
+    gap: 74px;
+    margin-top: 116px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.WhyChoosUsJpg{
+    margin-left: 160px;
+}
+.DivSingleChooseBox2{
+    width: 540px;
+    height: 683.59px;
+    gap: 33.5px;
+    padding-top: 53px;
+    padding-left: 35px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+}
+.WhyChooseUs_title{
+    color: #87C03D;
+    font-size: 16px;
+    font-family: Lobster;
+    text-transform: uppercase;
+    line-height: 20.80px;
+    letter-spacing: 4px;
+    
+}
+.WhyChooseUs_Box1{
+    font-weight: 700;
+    line-height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.WhyChooseUs_text1{
+    color: #255946;
+    font-size: 40px;
+}
+.WhyChooseUs_text2{
+    color: #87C03D;
+    font-size: 39px;
+}
+.WhyChooseUs_text3{
+    color: #6E7673;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.50px;
+}
+.WhyChooseUs_Box2,
+.WhyChooseUs_Box3,
+.WhyChooseUs_Box4{
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.HaJpg{
+    width: 85px;
+    height: 85px;
+    border-radius: 5px;
+    border: 2px #87C03D solid;
+}
+.WhyChooseUs_text4{
+    height: 30px;
+    color: #255946;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.WhyChooseUs_text5{
+    height: 55px;
+    color: #6E7673;
+    font-size: 15px;
+    line-height: 22.50px;
+}
+.largbox{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: block;
+}
+.line1,
+.After{
+    width: 2px;
+    height: 38px;
+    margin-left: 8.3%;
+    margin-top: -10px;
+    background: #87C03D;
+}
+
+
+
+.DivCounterArea{
+    width: 100%;
+    height: 369.89px;
+    margin-top: -90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.counter_container{
+    gap: 13px;
+    margin-top: 90px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.counter_numberbox,
+.counter_textbox{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.counter_textbox{
+    margin-left: 20px;
+    gap: 120px;
+}
+.counter_numberbox{
+    margin-left: 20px;
+    gap: 150px;
+}
+.GrowthTonsOfHarvest_num,
+.HappyClients_num,
+.ActivateProducts_num,
+.SalesOfOurProducts_num{
+    color: #255945;
+    font-size: 55px;
+    font-family: Lobster;
+    line-height: 71.50px;
+}
+.GrowthTonsOfHarvest,
+.HappyClients,
+.ActivateProducts,
+.SalesOfOurProducts{
+    color: #5C727D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.40px;
+}
+.counter_numberboxFormobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--=============== Testimonial area ===============*/
+
+.DivTestimonialArea {
+    width: 100%;
+    height: 641px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Testimonial_frame {
+    width: 90%;
+    gap: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Testimonial_info {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ImageOfTheTestimonialMaker {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user_Testimonial {
+    margin-bottom: 10px;
+    color: #6E7673;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.NameOfTheTestimonialMaker {
+    margin-bottom: 5px;
+    color: #255946;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 130% */
+}
+
+.TestimonialMaker_JopTitle {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #87C03D;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px; /* 233.333% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Next_Testimonial,
+.Brvios_Testimonial {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+      0.3em 0.3em 0 0 rgba(0, 0, 0, 0.10),
+      inset 0.3em 0.3em 0 0 rgba(0, 0, 0, 0.35);
+}
+.Next_Testimonial:hover,
+.Brvios_Testimonial:hover,
+.Next_Testimonial:focus,
+.Brvios_Testimonial:focus{
+  box-shadow: 
+    0 0 0 0 #87C03D,
+    inset 6em 3.5em 0 0 #87C03D;
+}
+.Symbol {
+    font-size: 30px;
+    color: white;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--=============== Contact area ===============*/
+
+
+.DivContactArea{
+    gap: 50px;
+    margin-top: 140px;
+    padding-bottom: 81px;
+    border-bottom: 2px #DDDDDD solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ContactArea_img{
+    border-radius: 5px;
+}
+.ContactArea_frame{
+    gap: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.ContactArea_head{
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.ContactArea_title{
+    color: #87C03D;
+    font-size: 16px;
+    font-family: Lobster;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20.80px;
+    letter-spacing: 4px;
+}
+.ContactArea_subtitle{
+    color: #255946;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 46.80px;
+}
+
+
+#Contact_form{
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.FormInput,
+.FormInput_Message{
+    height: 54px;
+    background: #F6F4EC;
+    border-radius: 3px;
+    border: 1px #F6F4EC solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+.FormInput_Message{
+    height: 166px;
+}
+#name,
+#email,
+#phone,
+#message{
+    width: 516px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: #255945;
+    background: transparent;
+    align-self: stretch;
+    justify-content: flex-start;
+    display: inline-flex
+}
+#message{
+    height: 150px;
+    margin-top: 10px;
+}
+.SendMessage_btn{
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 250px) and (max-device-width: 1024px){
+    
+    .Intro_container{
+        padding: 25px 16px;
+        height: 350px;
+    }
+    .intro_text{
+        gap: 0px;
+    }
+    .intro_title{
+        width: 180px;
+        font-size: 15px;
+    }
+    .description{
+        gap: 15px;
+    }
+    .Heading1Pure100{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .intro_p{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .Featuers_container{
+        margin-top: 0px;
+    }
+    .Featuers_frame{
+        gap: 50px;
+        display: grid;
+    }
+    .Heading2.reveal_left{
+        transform: translateY(0px);
+    }
+    .Heading2.reveal_lef.active{
+        transform: translateY(0px);
+    }
+    .DivSingleFeatuerBox{
+        height: 317.08px;
+        padding-bottom: 0.01px;
+    }
+    .Heading2{
+        height: 80.59px;
+        padding-bottom: 7.5px;
+    }
+    .Featuers_title{
+        font-size: 22px;
+    }
+    
+    
+    .Rectangle33{
+        width: 152px;
+        height: 4px;
+        margin: 50px 100px;
+        border-radius: 2px;
+        background: rgba(37, 89, 70, 0.52);
+    }
+
+
+    
+
+
+
+
+
+
+
+    .DivAboutArea,
+    .WhyChooseUs_container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap: 54px;
+        margin-top: 50px;
+    }
+    .AboutPng{
+        width: 100%;
+        height: 420px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: normal;
+        margin-left: 0px;
+    }
+    .About_content{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+    }
+    .About_title,
+    .WhyChooseUs_title{
+        font-size: 13px;
+    }
+    .AboutUS_text1{
+        font-size: 25px;
+    }
+    .AboutUS_text2{
+        font-size: 25px;
+    }
+    .AboutUS_text3{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .ExperiencedFarmers_Solutions_frame{
+        gap: 40px;
+        display: grid;
+    }
+
+
+
+
+
+    .slider_bigbox{
+        padding: 0px 7px;
+    }
+    .slide_content{
+        margin: 0 10px;
+    }
+    .slider_title{
+        font-size: 30px;
+    }
+
+
+
+
+
+
+    
+
+
+    .WhyChooseUs_container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .WhyChoosUsJpg{
+        height: 420px;
+        margin-left: 0px;
+    }
+    .DivSingleChooseBox2{
+        width: 360px;
+        height: 683.59px;
+        padding-left: 20px;
+    }
+    .WhyChooseUs_Box2,
+    .WhyChooseUs_Box3,
+    .WhyChooseUs_Box4{
+       width: 310px;
+    }
+    .WhyChooseUs_text1{
+        font-size: 25px;
+    }
+    .WhyChooseUs_text2{
+        font-size: 24px;
+    }
+    .WhyChooseUs_text3{
+        font-size: 12px;
+    }
+    .WhyChooseUs_text4{
+        font-size: 15px;
+    }
+    .WhyChooseUs_text5{
+        font-size: 10px;
+    }
+   
+    
+    
+
+
+
+
+
+
+
+    .DivCounterArea{
+        height: auto;
+        margin-top: 0px;
+        display: flex;
+        background-image: none;
+    }
+    .counter_container{
+        width: 100%;
+        gap: 13px;
+        margin-top: 0px;
+        flex-direction: column;
+        display: flex;
+        background-color: #FFF;
+
+    }
+    .counter_numberbox,
+    .counter_textbox{
+        display: none;
+    }
+    .counter_numberboxFormobile{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        padding: 40px 70px;
+    }
+    .box{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+
+
+
+
+    
+    
+    
+    .Testimonial_info {
+        margin-top: 70px;
+    }
+    
+    .user_Testimonial {
+        font-size: 13px;
+    }
+    
+    .NameOfTheTestimonialMaker {
+        font-size: 17px;
+    }
+    
+    .TestimonialMaker_JopTitle {
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+    
+        
+    
+    .DivContactArea{
+        gap: 50px;
+        display: grid;
+    }
+    .ContactArea_img{
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    .ContactArea_frame{
+        width: 100%;
+    }
+    .ContactArea_head{
+        margin-left: 35px;
+    }
+    .ContactArea_title{
+        font-size: 13px;
+    }
+    .ContactArea_subtitle{
+        font-size: 29px;
+    }
+    
+    
+    #Contact_form{
+        margin-left: 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+
+    }
+    .FormInput,
+    .FormInput_Message{
+        height: 54px;
+        background: #F6F4EC;
+        border-radius: 3px;
+        border: 1px #F6F4EC solid;
+        justify-content: flex-start;
+        align-items: center;
+        display: inline-flex;
+    }
+    .FormInput_Message{
+        height: 166px;
+    }
+    #name,
+    #email,
+    #phone,
+    #message{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 250px) and (max-width: 490px){
+ 
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 601px) and (max-width: 1024px){
+ 
+    .Intro_container{
+        padding: 50px 32px;
+        height: 500px;
+    }
+    .intro_text{
+        gap: 30px;
+    }
+    .intro_title{
+        width: 300px;
+        font-size: 27px;
+    }
+    .description{
+        gap: 15px;
+    }
+    .Heading1Pure100{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .intro_p{
+        font-size: 20px;
+    }
+
+
+
+
+    
+    
+
+    .Featuers_container{
+        margin-top: -70px;
+    }
+    .Featuers_frame{
+        gap: 20px;
+        display: inline-flex;
+    }
+    .DivSingleFeatuerBox img{
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    .Rectangle33{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .DivAboutArea,
+    .WhyChooseUs_container{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .DivAboutArea{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .About_content{
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        display: flex;
+    }
+    .About_title,
+    .WhyChooseUs_title{
+        font-size: 16px;
+    }
+    .AboutUS_text1{
+        font-size: 40px;
+    }
+    .AboutUS_text2{
+        font-size: 40px;
+    }
+    .AboutUS_text3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .ExperiencedFarmers_Solutions_frame{
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .About_btn{
+        margin-left: 40%;
+    }
+
+
+
+
+
+    .WhyChooseUs_container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        gap: 30px;
+    }
+    .WhyChoosUsJpg{
+        height: 420px;
+        margin-left: 0px;
+    }
+    .DivSingleChooseBox2{
+        width: 90%;
+        height: 683.59px;
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .WhyChooseUs_Box2,
+    .WhyChooseUs_Box3,
+    .WhyChooseUs_Box4{
+       width: 100%;
+       text-align: left;
+    }
+    .WhyChooseUs_text1{
+        font-size: 40px;
+    }
+    .WhyChooseUs_text2{
+        font-size: 39px;
+    }
+    .WhyChooseUs_text3{
+        font-size: 16px;
+    }
+    .WhyChooseUs_text4{
+        font-size: 20px;
+    }
+    .WhyChooseUs_text5{
+        font-size: 15px;
+    }
+    .line1,
+    .After{
+        margin-left: 9.5%;
+    }
+
+
+
+
+
+
+
+
+    
+    .counter_numberboxFormobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+
+    
+    
+    
+    
+    .user_Testimonial {
+        font-size: 14px;
+    }
+    
+    .NameOfTheTestimonialMaker {
+        font-size: 20px;
+    }
+    
+    .TestimonialMaker_JopTitle {
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    .DivContactArea{
+        gap: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ContactArea_img{
+        height: 390px;
+    }
+    
+}

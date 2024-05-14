@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#87C03D" />  <!--========== Theam color ==========-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+
+    <!--========== ICONS ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="icon" type="image/x-icon" href="./green-globe-logo-page-0001-1.png">
+
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--========== CSS Files link ==========-->
+    <link rel="stylesheet" href="./RFQ Style.css">
+    <link rel="stylesheet" href="./essentials.css">
+    <link rel="stylesheet" href="./contact us Style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/JS/jquery-3.7.1.min.js"></script>
+   
+
+    <title>RFQ</title>
+</head>
+<body>
+
+        <!--========== Main ==========-->
+
+        <div class="Product_AfterClick" style="width: 100%; height: 100%; position: fixed; background: rgba(135, 192, 61, 0.17); display: none;">
+
+        </div>
+
+    <div class="Home">
+
+        <!--========== Nav ==========-->
+        
+
+        <div class="Nav_container">
+            <a href="./index.html" class="nav_logo">
+              <img class="Header_logo" src="./Green Globe logo.png" />
+            </a>
+          <nav class="navbar_header" id="sidemenu">
+            <div class="nav_bar">
+              <a href="./index.html" class="nav_title">Home</a>
+              <a href="./About Us.html" class="nav_title">About Us</a>
+              <a href="./Products.html" class="nav_title">Products</a>
+              <a href="./Other Products.html" class="nav_title">Other Products</a>
+              <a href="#" class="nav_title" style="display: none;">Partners</a>
+              <a href="./Contact Us.html" class="nav_title">Make Your Order</a>
+              <a href="#" class="nav_title">RFQ</a>
+           </div>
+          </nav>
+          
+          <div class="follow_frame">
+            <div class="FollowUs_title">Follow Us</div>
+            <a href="#" class="header_social"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="header_social" style="font-size: 20px; padding-top: 3px;"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="header_social"><i class='bx bxl-instagram' ></i></a>
+          </div>
+
+          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+          </div>
+
+        </div>
+
+        
+        
+
+
+
+        <!--========== body intro ==========-->
+
+        <div class="ContactUs_intro"  style="background-size: cover; background-image: url(./RFQ\ intro\ v2.png);" >
+          <div class="ContactUs_title">Question</div>
+      </div>
+
+      <div class="DivContactinfo">
+
+        <div class="Form_tite"><span>Send A </span><span style="color: #255946;">RFQ</span></div>
+
+          <form id="ContactUs_form">
+
+              <div class="FormInput">
+                <input type="text" id="EnterQuantityRequired" name="Enter Quantity Required" placeholder="Enter Quantity Required">
+              </div>
+  
+              <select id="Unit_Select">
+                <option value="">Select Unit</option>
+                <option value="kilo">Kilo</option>
+                <option value="ton">Ton</option>
+                <option value="pound">Pound</option>
+              </select>
+  
+              <select id="PaymentMethod_select">
+                <option value="">Select your payment method</option>
+                <option value="T/T">T/T</option>
+                <option value="L/C">L/C</option>
+                <option value="D/A">D/A</option>
+                <option value="D/P">D/P</option>
+                <option value="westernUnion">Western Union</option>
+                <option value="MoneyGram">Money Gram</option>
+                <option value="paypal">Paypal</option>
+                <option value="othermethod">Other</option>
+              </select>
+
+              <select id="SelectBuyingFrequency_select">
+                <option value="">Select Buying Frequency</option>
+                <option value="onetime">One Time</option>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="semiAnnualy">Semi Annualy</option>
+                <option value="annualy">Annualy</option>
+                <option value="otherfrequency">Other</option>
+
+              </select>
+
+              <div class="FormInput">
+                  <input type="text" id="EnterDestinationPort" name="Enter Destination Port" placeholder="Enter Destination Port">
+              </div>
+
+              <select id="TimeOfValidaty_select">
+                <option value="">Select Time Of Validaty</option>
+                <option value="1week">1 Week</option>
+                <option value="2weeks">2 Weeks</option>
+                <option value="3weeks">3 Weeks</option>
+                <option value="1month">1 Month</option>
+                <option value="2months">2 Months</option>
+                <option value="3months">3 Months</option>
+                <option value="4months">4 Months</option>
+                <option value="5months">5 Months</option>
+                <option value="6months">6 Months</option>
+                <option value="1year">1 Year</option>
+              </select>
+
+              <div class="Attachment_container">
+                <div class="Attachment_title">Attachment like product pictures / images would improve your RFQ</div>
+
+                <div class="Attachment_box">
+                  <div class="Group1">
+                    
+                    <i class='bx bx-plus' id="uploadButton"></i>
+                    
+                    <div class="UploadAttachment">Upload Attachment</div>
+                  </div>
+                </div>
+
+                <div class="agree_container">
+                  <input type="checkbox" id="agree_check">
+                  <div class="IHaveReadIAgree">I Have Read, I agree</div>
+                </div>
+              </div>
+
+              <div></div>
+
+              <input type="submit" class="Btn SendMessage_btn" value="Send RFQ">
+
+          </form>
+
+</div>
+        
+
+        
+
+
+
+
+        <!--========== Footer area ==========-->
+       
+<div class="FooterArea">
+  <div class="Footer_contentFrame">
+    <div class="Footer_leftFrame reveal">
+      <a href="./index.html"><img class="Footer_logo" src="./Green Globe white bg footer logo.jpg" /></a>
+      <a href="./index.html"><img class="MopileFooter_logo" src="./Green Globe logo.png" /></a>
+    </div>
+
+    <div class="Footer_rightFrame reveal">
+
+      <div class="Footer_nav">
+        <div class="left_group">
+          <div class="left_title">Pages</div>
+        <div class="left">
+          <a href="./index.html" class="nav_title">Home</a>
+          <a href="./About Us.html" class="nav_title">About Us</a>
+          <a href="./Products.html" class="nav_title">Products</a>
+          <a href="./Other Products.html" class="nav_title">Other Products</a>
+        </div>
+        </div>
+        
+        <div class="right_group">
+          <div class="right_title">Service</div>
+        <div class="right">
+          <a href="./Contact Us.html" class="nav_title">Make Your Order</a>
+          <a href="#" class="nav_title">RFQ</a>
+        </div>
+        </div>
+      </div>
+
+    <div class="Footer_contact">
+      <div class="Footercontact_title">Contact</div>
+      
+      <div class="Footercontact_group">
+
+        <div class="Footer_Contact_numbers">
+          <div class="Footer_contact_icons"><i class='bx bxs-phone' ></i></div>
+          <div class="Phone_numbers">+20122 327 2002 <br>+20122 538 8555 <br>+20 128 535 7532</div>
+        </div>
+
+        <div class="Footer_email">
+          <div class="Footer_contact_icons"><i class='bx bxs-envelope' ></i></div>
+          <a href="#" class="LinkExampleExampleCom">info@greenglobeco.com</a>
+        </div>
+
+        <div class="Footer_location">
+          <div class="Footer_contact_icons"><i class='bx bxs-map'></i></div>
+          <div class="Location_text">Egypt ,Alex</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Footerfollowus">
+      <div class="FollowUs_title">Social media</div>
+      <div class="Socialmedia_icons">
+        <a href="#" class="header_social"><i class='bx bxl-facebook'></i></a>
+        <a href="#" class="header_social" style="font-size: 20px; padding-top: 3px;"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="header_social"><i class='bx bxl-instagram' ></i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="Footer_Copyright">Copyright © Green Globe all rights reserved. <br> <br>Powered by <a href="https://wa.me/+201551511336" style="text-decoration: none; color: #255946; font-size: 15px; font-family: Roboto; font-weight: 700; line-height: 15px;">Enchanted Creations</a> <br></div>
+</div>
+  
+  
+  </div>
+  
+  <!--========== SCROLL UP ==========-->
+  
+  <span class="up"><i class='bx bxs-chevrons-up'></i></span>
+  
+  
+  <script src="./main.js"></script>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/acf6af364e.js" crossorigin="anonymous"></script>
+    
+  </body>
+  </html>
