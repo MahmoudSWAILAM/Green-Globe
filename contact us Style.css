@@ -10,7 +10,7 @@
 .ContactUs_title{
     color: white;
     font-size: 100px;
-    font-family: Lobster;
+    font-family: Lato;
     line-height: 100px;
 }
 .DivContactinfo{
@@ -28,7 +28,7 @@
     text-align: center;
     color: #255946;
     font-size: 25px;
-    font-family: Inter;
+    font-family: Comfortaa;
     font-weight: 600;
 }
 #ContactUs_form{
@@ -108,7 +108,7 @@ select{
     text-align: center;
     color: #255945;
     font-size: 25px;
-    font-family: Inter;
+    font-family: Comfortaa;
     font-weight: 400;
     text-transform: capitalize;
     transition: 0.3s;
