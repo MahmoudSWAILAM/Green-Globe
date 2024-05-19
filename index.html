@@ -8,15 +8,16 @@
 
     <!--========== ICONS ==========-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="icon" type="image/x-icon" href="./green-globe-logo-page-0001-1.png">
-
-    <!--========== BOXICONS ==========-->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!--========== SWIPER CSS ==========-->
+    <!--========== URL icon ==========-->
+    <link rel="icon" type="image/x-icon" href="./static/img/green-globe-logo-page-0001-1.png">
+
+    <!--========== SWIPER and Bootstrap CSS ==========-->
     <link rel="stylesheet" href="./swiper.min.css">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
     <!--========== CSS Files link ==========-->
     <link rel="stylesheet" href="./homeStyle.css">
@@ -39,10 +40,9 @@
     <div class="Home">
 
       
-
-        <div class="Header_container">
-        <a href="./Home.html" class="nav_logo">
-          <img class="Header_logo" src="./static/img/Green Globe logo no BG.png" />
+      <div class="Header_container">
+        <a href="./index.html" class="nav_logo">
+          <img class="Header_logo" src="./Green Globe logo no BG.png" />
         </a>
 
         <div class="Headerlinks_bigbox">
@@ -84,24 +84,28 @@
         
       </div>
 
+
         <!--========== Nav ==========-->
         
 
         <div class="Nav_container">
-          <a href="./Home.html" class="nav_logo">
+          <a href="./index.html" class="nav_logo">
             <img class="Header_logo" src="./Green Globe logo.png" />
           </a>
-        <nav class="navbar_header" id="sidemenu">
-          <div class="nav_bar">
-            <a href="#" class="nav_title">Home</a>
-            <a href="./About Us.html" class="nav_title">About Us</a>
-            <a href="./Products.html" class="nav_title">Products</a>
-            <a href="./Other Products.html" class="nav_title">Other Products</a>
-            <a href="#" class="nav_title" style="display: none;">Partners</a>
-            <a href="./Contact Us.html" class="nav_title">Make Your Order</a>
-            <a href="./RFQ.html" class="nav_title">RFQ</a>
-         </div>
-        </nav>
+
+          <nav class="navbar_header" id="sidemenu">
+            <div class="nav_bar">
+              <a href="#" class="nav_title">Home</a>
+              <a href="./About Us.html" class="nav_title">About Us</a>
+              <a href="./Products.html" class="nav_title">Products</a>
+              <a href="./Other Products.html" class="nav_title">Other Products</a>
+              <a href="#" class="nav_title" style="display: none;">Partners</a>
+              <a href="./Contact Us.html" class="nav_title">Make Your Order</a>
+              <a href="./RFQ.html" class="nav_title">RFQ</a>
+           </div>
+          </nav>
+        
+      
         
         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
               
@@ -125,7 +129,7 @@
               <p class="intro_p">We export fruits and vegetables from reliable sources abroad using the <br>best methods and fastest means of delivery.</p>
             </div>
 
-            <button type="submit" class="Btn contact_btn" id="contact_btn">Contact Us</button>
+            <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
 
           </div>
         </div>
@@ -138,7 +142,7 @@
 
         <!--========== Featuers ==========-->
 
-        <div class="Featuers_container">
+        <!-- <div class="Featuers_container">
           <div class="Featuers_frame">
 
             <div class="DivSingleFeatuerBox">
@@ -167,7 +171,7 @@
               </div>
               
         </div>
-        </div>
+        </div> -->
         
 
     
@@ -183,7 +187,7 @@
 
 
         <div class="DivAboutArea reveal" style="background-image: url(./about\ us\ area.png); background-size: cover; width: 100%;">
-          <img class="AboutPng" src="./about us new.jpg" />
+          <img class="AboutPng" src="./about us new v2.png" />
 
           <div class="About_content reveal_right">
 
@@ -225,7 +229,7 @@
 
           <!--========== Fresh Slider area ==========-->
           <div class="slider_bigbox">
-            <div class="slider_title"><span style="color: #87C03D;">Fresh</span> Products</div>
+            <div class="slider_title"><span style="color: #87C03D; text-transform: uppercase;">Fresh</span> Vegetables or Fruits</div>
 
           <div class="slide_container swiper">
             <div class="slide_content mySwiper swiper-wrapper swiper-wrapper102">
@@ -235,8 +239,11 @@
 
                   <div class="DivSingleProductBox slider_product">
                     <img class="Product_img" src="./grapes product.png" />
-                    <div class="Product_name">Grapes</div>
-                    <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
                   </div>
 
                 </div>
@@ -246,10 +253,45 @@
 
                 <div class="card">
 
-                  <div class="DivSingleProductBox">
-                    <img class="Product_img" src="./tomato.png" />
-                    <div class="Product_name">Juicy Tomato</div>
-                    <div class="Produsct_discription">•Savor the vibrant taste of our premium Egyptian   tomatoes    –   a    burst   of freshness  cultivated  in Egypt's fertile soils!</div>
+                  <div class="DivSingleProductBox slider_product">
+                    <img class="Product_img" src="./grapes product.png" />
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="card_wrapper swiper-slide">
+
+                <div class="card">
+
+                  <div class="DivSingleProductBox slider_product">
+                    <img class="Product_img" src="./grapes product.png" />
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="card_wrapper swiper-slide">
+
+                <div class="card">
+
+                  <div class="DivSingleProductBox slider_product">
+                    <img class="Product_img" src="./grapes product.png" />
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
                   </div>
 
                 </div>
@@ -274,8 +316,11 @@
 
                   <div class="DivSingleProductBox slider_product">
                     <img class="Product_img" src="./grapes product.png" />
-                    <div class="Product_name">Grapes</div>
-                    <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
                   </div>
 
                 </div>
@@ -287,34 +332,11 @@
 
                   <div class="DivSingleProductBox slider_product">
                     <img class="Product_img" src="./grapes product.png" />
-                    <div class="Product_name">Grapes</div>
-                    <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="card_wrapper swiper-slide">
-
-                <div class="card">
-
-                  <div class="DivSingleProductBox slider_product">
-                    <img class="Product_img" src="./grapes product.png" />
-                    <div class="Product_name">Grapes</div>
-                    <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="card_wrapper swiper-slide">
-
-                <div class="card">
-
-                  <div class="DivSingleProductBox slider_product">
-                    <img class="Product_img" src="./grapes product.png" />
-                    <div class="Product_name">Grapes</div>
-                    <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                    <div class="product_info">
+                      <div class="Product_name">Grapes</div>
+                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                    </div>
                   </div>
 
                 </div>
@@ -342,9 +364,9 @@
 
 
 
-          <!--========== Canned Slider area ==========-->
+          <!--========== Frozen Slider area ==========-->
           <div class="slider_bigbox">
-            <div class="slider_title"><span style="color: #87C03D;">Canned</span> Products</div>
+            <div class="slider_title"><span style="color: #87C03D; text-transform: uppercase;">Frozen</span> Vegetables or Fruits</div>
 
             <!-- Slider main container -->
             <div class="slide_container swiper swiper2">
@@ -356,8 +378,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -367,8 +392,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -378,32 +406,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -414,8 +421,41 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -446,7 +486,7 @@
 
           <!--========== Dried Slider area ==========-->
           <div class="slider_bigbox">
-            <div class="slider_title"><span style="color: #87C03D;">Dried</span> Products</div>
+            <div class="slider_title"><span style="color: #87C03D; text-transform: uppercase;">Dried</span> Fruits or Herbs</div>
 
             <!-- Slider main container -->
             <div class="slide_container swiper swiper3">
@@ -458,8 +498,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -469,8 +512,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -480,32 +526,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -516,8 +541,41 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -547,9 +605,9 @@
 
 
 
-          <!--========== Frozen Slider area ==========-->
+          <!--========== Canned Slider area ==========-->
           <div class="slider_bigbox">
-            <div class="slider_title"><span style="color: #87C03D;">Frozen</span> Products</div>
+            <div class="slider_title"><span style="color: #87C03D;">Canned or Packed</span> Food</div>
 
             <!-- Slider main container -->
             <div class="slide_container swiper swiper4">
@@ -561,8 +619,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -572,8 +633,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -583,32 +647,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -619,8 +662,41 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -664,8 +740,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -675,8 +754,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -686,32 +768,11 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
-                    </div>
-  
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card">
-
-                    <div class="DivSingleProductBox slider_product">
-                      <img class="Product_img" src="./grapes product.png" />
-                      <div class="Product_name">Grapes</div>
-                      <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
                     </div>
   
                   </div>
@@ -722,9 +783,42 @@
 
                     <div class="DivSingleProductBox slider_product">
                       <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                    <div class="DivSingleProductBox slider_product">
+                      <img class="Product_img" src="./grapes product.png" />
+                      <div class="product_info">
+                        <div class="Product_name">Grapes</div>
+                        <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                        <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+
+                   <div class="DivSingleProductBox slider_product">
+                    <img class="Product_img" src="./grapes product.png" />
+                    <div class="product_info">
                       <div class="Product_name">Grapes</div>
                       <div class="Produsct_discription">•Indulge in the succulent sweetness of our  Egyptian   grapes   –  a   taste  of luxury straight from Egypt's bountiful vineyards!</div>
+                      <div class="AskforProposal_link"><a href="./Contact Us.html">Ask for Proposal</a></div>
                     </div>
+                  </div>
   
                   </div>
                 </div>
@@ -894,7 +988,7 @@
         <div class="DivTestimonialArea" style="background-image: url(./div.testimonial-area.png); background-size: cover;">
           <div class="Testimonial_frame">
 
-            <div class="Brvios_Testimonial reveal_left">
+            <div class="Brvios_Testimonial reveal">
               <div class="Symbol"></div>
             </div>
       
@@ -905,7 +999,7 @@
                   <div class="TestimonialMaker_JopTitle">farmer</div>
               </div>
 
-              <div class="Next_Testimonial reveal_right">
+              <div class="Next_Testimonial reveal">
                 <div class="Symbol"></div>
               </div>
               
@@ -977,8 +1071,8 @@
         <div class="FooterArea">
           <div class="Footer_contentFrame">
             <div class="Footer_leftFrame reveal">
-              <a href="./index.html"><img class="Footer_logo" src="./Green Globe Footer logo.png" /></a>
-              <a href="./index.html"><img class="MopileFooter_logo" src="./Green Globe logo.png" /></a>
+              <a href="./Home.html"><img class="Footer_logo" src="./Green Globe Footer logo.png" /></a>
+              <a href="./Home.html"><img class="MopileFooter_logo" src="./Green Globe logo.png" /></a>
             </div>
   
             <div class="Footer_rightFrame reveal">
@@ -1054,6 +1148,7 @@
       <script src="jquery-3.7.1.min.js"></script>
       <script src="https://kit.fontawesome.com/acf6af364e.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
