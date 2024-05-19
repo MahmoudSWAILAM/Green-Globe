@@ -20,27 +20,29 @@
     width: 322px;
     height: 25px;
     font-size: 20px;
-    font-style: italic;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 26px;
 }
 .description{
-    gap: 45px;
+    gap: 30px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     display: inline-flex;
 }
 .Heading1Pure100{
-    font-size: 100px;
-    font-family: Lobster;
+    font-size: 70px;
+    font-family: "Lato", sans-serif;
     line-height: 100px;
 }
 .intro_p{
-    font-size: 19px;
-    font-family: Roboto;
-    font-weight: 500;
+    font-size: 20px;
+    font-family: Comfortaa;
+    font-weight: 600;
+}
+.contact_btn{
+    font-size: 16px;
 }
 
 
@@ -113,7 +115,7 @@
 
 
 .DivAboutArea{
-    gap: 108px;
+    gap: 78px;
     margin-top: 100px;
     display: inline-flex;
 }
@@ -122,6 +124,7 @@
     border-radius: 5px;
 }
 .About_content{
+    gap: 10px;
     font-weight: 700;
     flex-direction: column;
     display: inline-flex;
@@ -129,9 +132,8 @@
 .About_title{
     color: #87C03D;
     font-size: 16px;
-    font-family: Lobster;
+    font-family: Comfortaa;
     text-transform: uppercase;
-    line-height: 20.80px;
     letter-spacing: 4px;
 }
 .AboutUS_text1{
@@ -151,7 +153,7 @@
 }
 .ExperiencedFarmers_Solutions_frame{
     margin-top: 50px;
-    gap: 90px;
+    gap: 60px;
     display: flex;
 }
 .ExperiencedFarmers,
@@ -168,13 +170,13 @@
 }
 
 .AboutUS_text6{
-    color: #6E7673;
     font-size: 15px;
     font-weight: 400;
     margin-top: 34px;
 }
 .About_btn{
     margin-top: 55px;
+    font-size: 16px;
 }
 
 
@@ -191,7 +193,7 @@
     gap: 51px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 150px;
 }
@@ -215,8 +217,8 @@
 }
 .slider_title{
     color: #1C1C1C;
-    font-family: Inter;
-    font-size: 40px;
+    font-family: Comfortaa;
+    font-size: 38px;
     font-weight: 600;
 }
 .card_slide{
@@ -225,6 +227,7 @@
 .DivSingleProductBox{
     width: 350px;
     height: 279.50px;
+    padding: 10px;
     gap: 20px;
     border-radius: 5px;
     border: 2px #EDE9DA solid;
@@ -239,13 +242,19 @@
       0em 0em 0 0 rgba(0, 0, 0, 0.10),
       inset 0em 0em 0 0 rgba(0, 0, 0, 0.35);
 }
-
 .Product_img{
     width: 100px;
     height: 75px;
     aspect-ratio: 3/2;
     object-fit: contain;
     mix-blend-mode: normal;
+}
+.product_info{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Product_name{
     width: 200px;
@@ -258,11 +267,14 @@
 }
 .Produsct_discription{
     width: 322px;
-    height: 114px;
     text-align: center;
     color: #FFF;
     font-size: 15px;
     line-height: 25.50px;
+}
+.AskforProposal_link a{
+    text-decoration: none;
+    color: #FFF;
 }
 
 
@@ -289,10 +301,8 @@
 }
 .DivSingleChooseBox2{
     width: 540px;
-    height: 683.59px;
     gap: 33.5px;
-    padding-top: 53px;
-    padding-left: 35px;
+    padding: 53px 35px;
     background: white;
     display: flex;
     flex-direction: column;
@@ -301,7 +311,7 @@
 .WhyChooseUs_title{
     color: #87C03D;
     font-size: 16px;
-    font-family: Lobster;
+    font-family: Comfortaa;
     text-transform: uppercase;
     line-height: 20.80px;
     letter-spacing: 4px;
@@ -407,8 +417,8 @@
 .SalesOfOurProducts_num{
     color: #255945;
     font-size: 55px;
-    font-family: Lobster;
     line-height: 71.50px;
+    font-family: Lato;
 }
 .GrowthTonsOfHarvest,
 .HappyClients,
@@ -469,7 +479,6 @@
     color: #6E7673;
     text-align: center;
     font-size: 18px;
-    font-style: italic;
     font-weight: 500;
     line-height: 28px;
 }
@@ -480,7 +489,7 @@
     text-align: center;
     font-size: 22px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 130%; /* 130% */
 }
 
@@ -570,7 +579,7 @@
 .ContactArea_title{
     color: #87C03D;
     font-size: 16px;
-    font-family: Lobster;
+    font-family: Comfortaa;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 20.80px;
@@ -624,6 +633,7 @@
 }
 .SendMessage_btn{
     margin-top: 33px;
+    font-size: 16px;
 }
 
 
@@ -758,12 +768,14 @@
 
     .slider_bigbox{
         padding: 0px 7px;
+        align-items: center;
+        gap: 0px;
+    }
+    .slider_title{
+        font-size: 20px;
     }
     .slide_content{
         margin: 0 10px;
-    }
-    .slider_title{
-        font-size: 30px;
     }
 
 
