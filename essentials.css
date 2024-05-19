@@ -1,7 +1,5 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:600,500,400,700,italic|Lobster:400|Roboto:400,500,600,700|Tajawal:400,500,600,700");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     margin:0;
@@ -130,8 +128,7 @@ html{
 .Home{
     width: 100%;
     height: 100vh;
-    font-family: Inter;
-    font-weight: 400;
+    font-family: Comfortaa;
     word-wrap: break-word;
     line-height: 28px;
 }
@@ -139,8 +136,45 @@ html{
 
 
 
-
-
+.Header_container{
+    padding: 10px;
+}
+.Header_container,
+.Headerlinks_bigbox,
+.Header_contact,
+.contact_group{
+    gap: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Headerlinks_bigbox{
+    gap: 70px;
+}
+.Header_contact{
+    gap: 50px;
+}
+.contact_group{
+    gap: 15px;
+}
+.Header_contact_icons{
+    font-size: 35px;
+    color: #87C03D;
+}
+.contact_TitleAndData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact_title{
+    font-size: 16px;
+    font-weight: 900;
+}
+.contact_Data{
+    color: #696969;
+    font-size: 14px;
+}
 
 
 
@@ -149,17 +183,21 @@ html{
 
 .Nav_container{
     width: 100%;
-    padding: 10px;
     gap: 66px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #87C03D;
 }
 .navbar_header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.Nav_container .nav_logo{
+    display: none;
 }
 .Header_logo{
     width: 310px;
@@ -172,26 +210,25 @@ html{
 }
 .nav_bar{
     padding: 10px 30px;
-    gap: 48px;
+    gap: 68px;
     display: inline-flex;
     list-style: none;
-    border-radius: 50px;
-    background: #F6F6F6;
+    font-family: "Lato", sans-serif;
 }
 .nav_title{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 14px;
-    font-weight: 400;
     text-decoration: none;
     position: relative;
     transition: 0.3s;
+    text-transform: uppercase;
 }
 .nav_title::after{
     content: "";
     width: 0;
     height: 3px;
-    background: #EFB443;
+    background: #FFF;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -210,16 +247,16 @@ html{
     align-items: center;
     gap: 20px;
     display: flex;
-    color: #255946;
+    color: #87C03D;
 
 }
 .Nav_container .FollowUs_title{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    font-family: Inter;
+    font-family: Comfortaa;
 }
 .header_social{
-    color: #255946;
+    color: #87C03D;
     font-size: 25px;
     line-height: 15px;
     transition: 0.3s ;
@@ -271,7 +308,7 @@ html{
 }
 .Footer_contentFrame{
     color: #0E0F1D;
-    font-family: Roboto;
+    font-family: Comfortaa;
     gap: 111px;
     align-items: center;
     display: inline-flex;
@@ -309,7 +346,6 @@ html{
 .right_group,
 .Footer_contact{
     gap: 40px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,7 +359,8 @@ html{
 .Footercontact_title,
 .FollowUs_title{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: Comfortaa;
 }
 .Footer_nav{
     gap: 64px;
@@ -341,7 +378,7 @@ html{
 .Footer_rightFrame a{
     color: #000;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 .Footer_rightFrame a:hover{
@@ -504,7 +541,7 @@ html{
     }
 
     .Btn{
-        width: 110.53px;
+        width: 120.53px;
         height: 35px;
         font-size: 12px;
     }
@@ -518,6 +555,9 @@ html{
         padding-top: 2px;
     }
 
+    .Header_container{
+        display: none;
+    }
     .Nav_container{
         /* background: linear-gradient(90deg, #FFF 18%, #EFB443 82%); */
         background: #FFF;
@@ -528,6 +568,9 @@ html{
     }
     .Nav_container.active{
         display: flex;
+    }
+    .Nav_container .nav_logo{
+        display: block;
     }
     .Header_logo{
         width: 300px;
