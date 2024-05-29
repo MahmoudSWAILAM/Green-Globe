@@ -314,7 +314,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
     
 
     // Fresh swiper
@@ -355,8 +354,8 @@ document.addEventListener('DOMContentLoaded', function() {
               spaceBetween: 150,
             },
             1200: {
-              slidesPerView: 4,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              spaceBetween: -60,
             },
           },
       });
@@ -399,8 +398,8 @@ document.addEventListener('DOMContentLoaded', function() {
               spaceBetween: 150,
             },
             1200: {
-              slidesPerView: 4,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              spaceBetween: -60,
             },
           },
       });
@@ -444,8 +443,8 @@ document.addEventListener('DOMContentLoaded', function() {
               spaceBetween: 150,
             },
             1200: {
-              slidesPerView: 4,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              spaceBetween: -60,
             },
           },
       });
@@ -490,8 +489,8 @@ document.addEventListener('DOMContentLoaded', function() {
               spaceBetween: 150,
             },
             1200: {
-              slidesPerView: 4,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              spaceBetween: -60,
             },
           },
       });
@@ -537,8 +536,8 @@ document.addEventListener('DOMContentLoaded', function() {
               spaceBetween: 150,
             },
             1200: {
-              slidesPerView: 4,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              spaceBetween: -60,
             },
           },
       });
