@@ -8,11 +8,11 @@
 
     <!--========== ICONS ==========-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!--========== URL icon ==========-->
-    <link rel="icon" type="image/x-icon" href="./static/img/green-globe-logo-page-0001-1.png">
+    <link rel="icon" type="image/x-icon" href="./green-globe-logo-page-0001-1.png">
 
     <!--========== SWIPER and Bootstrap CSS ==========-->
     <link rel="stylesheet" href="./swiper.min.css">
@@ -25,7 +25,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script type="text/javascript" src="assets/JS/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="./static/JS/jquery-3.7.1.min.js"></script>
    
 
     <title>Home</title>
@@ -119,18 +119,133 @@
 
         <!--========== body intro ==========-->
 
-        <div class="Intro_container" style="background-image: url(./intro\ img.png); background-size: cover;">
+        <div class="slider">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          
+            <div class="carousel-inner">
 
-          <div class="intro_text">
-            <div class="intro_title">Green globe  is life</div>
+              <div class="carousel-item active">
+                  
+                <div class="slide_box">
+                  <div class="slider_imgbox mobileimgbox">
+                    <img src="./slider fresh.png" class="slider_img">
+                  </div>
 
-            <div class="description">
-              <div class="Heading1Pure100">Dried, fresh, canned <br>and frozen fruits <br>and vegetables</div>
-              <p class="intro_p">We export fruits and vegetables from reliable sources abroad using the <br>best methods and fastest means of delivery.</p>
+                  <div class="slider_text">
+                    <div class="intro_title">Green globe  is life</div>
+                    <div class="sector_name">Our Fresh Vegetables and Fruits</div>
+                    <div class="sector_p"> This section showcases a wide range of freshly harvested fruits.
+                      You'll find an assortment of seasonal fruits known for their delicious taste and high nutritional value.
+                      From juicy berries to tropical delights, our fresh fruits section offers the finest quality produce.</div>
+    
+                    <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
+                  </div>
+  
+                  <div class="slider_imgbox">
+                    <img src="./slider fresh.png" class="slider_img">
+                  </div>
+                </div>
+            
+              </div>
+
+              <div class="carousel-item">
+                  
+                <div class="slide_box">
+                  <div class="slider_imgbox mobileimgbox">
+                    <img src="./slider frozen.png" class="slider_img">
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="intro_title">Green globe  is life</div>
+                    <div class="sector_name">Our Frozen Vegetables and Fruits</div>
+                    <div class="sector_p">In the frozen fruits section, you'll discover a range of fruits that have been frozen at their peak freshness. Frozen fruits offer convenience and are ideal for making smoothies, desserts, or adding to your favorite recipes. They retain their taste and nutritional value.</div>
+    
+                    <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
+                  </div>
+  
+                  <div class="slider_imgbox">
+                    <img src="./slider frozen.png" class="slider_img">
+                  </div>
+                </div>
+            
+              </div>
+
+              <div class="carousel-item">
+                  
+                <div class="slide_box">
+                  <div class="slider_imgbox mobileimgbox">
+                    <img src="./slider dried.png" class="slider_img">
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="intro_title">Green globe  is life</div>
+                    <div class="sector_name">Our Dried Fruits and Herbs</div>
+                    <div class="sector_p">Our dry fruits section features a variety of fruits that have been dried to extend their shelf life. These fruits retain their natural flavors and nutrients, making them a nutritious option for snacking or incorporating into baked goods, cereals, and trail mixes.</div>
+    
+                    <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
+                  </div>
+  
+                  <div class="slider_imgbox">
+                    <img src="./slider dried.png" class="slider_img">
+                  </div>
+                </div>
+            
+              </div>
+
+              <div class="carousel-item">
+                  
+                <div class="slide_box">
+                  <div class="slider_imgbox mobileimgbox">
+                    <img src="./slider canned.png" class="slider_img">
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="intro_title">Green globe  is life</div>
+                    <div class="sector_name">Our Canned Products</div>
+                    <div class="sector_p">In this section, you can explore a selection of products that have been carefully preserved in cans. Canned products provide convenience and can be enjoyed year-round. They are perfect for adding to recipes, desserts, or enjoying as a quick and healthy snack</div>
+    
+                    <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
+                  </div>
+  
+                  <div class="slider_imgbox">
+                    <img src="./slider canned.png" class="slider_img">
+                  </div>
+                </div>
+            
+              </div>
+
+              <div class="carousel-item">
+                  
+                <div class="slide_box">
+                  <div class="slider_imgbox mobileimgbox">
+                    <img src="./slider other.png" class="slider_img">
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="intro_title">Green globe  is life</div>
+                    <div class="sector_name">Other Products</div>
+                    <div class="sector_p">In the other products, you'll discover a range of products that have been cotton at their peak freshness. products offer convenience and are ideal for making smoothies, wheat, or adding to your favorite recipes. They retain their taste and nutritional value.</div>
+    
+                    <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
+                  </div>
+  
+                  <div class="slider_imgbox">
+                    <img src="./slider other.png" class="slider_img">
+                  </div>
+                </div>
+            
+              </div>
+
             </div>
 
-            <button type="submit" class="Btn contact_btn" id="contact_btn">Make Your Order</button>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
 
@@ -140,37 +255,31 @@
 
 
 
-        <!--========== Featuers ==========-->
+        <!--========== Sectors ==========-->
 
-        <!-- <div class="Featuers_container">
-          <div class="Featuers_frame">
 
-            <div class="DivSingleFeatuerBox">
-                <div class="Heading2">
-                  <div class="Featuers_title">Delivery speed</div>
-                  <div class="Before" ></div>
-                </div>
-                <img src="./Delivery speed.png"/>
-              </div>
+        <!-- <div class="sectors_container">
 
-              <div class="DivSingleFeatuerBox">
-                <div class="Heading2">
-                  <div class="Featuers_title">Perfect Products</div>
-                  <div class="Before"></div>
-                </div>
-                <img src="./Perfect_products.png"/>
-              </div>
-
-              <div class="DivSingleFeatuerBox">
-                <div class="Heading2">
-                  <div class="Featuers_title">Quality Standard</div>
-                  <div class="Before"></div>
-                </div>
-                <img src="./quality_standerd.png"/>
-                
-              </div>
-              
-        </div>
+          <div class="sectors_title">Our Sectors</div>
+      
+          <div class="sector_Group">
+            <div class="sector_box" style="background-image: url(./static/img/Fresh\ sector.png); background-size: cover;">
+              <a href="./Products.html" class="sector_name">Fresh Vegetables or Fruits</a>
+            </div>
+            <div class="sector_box" style="background-image: url(./static/img/Frozen\ sector.png); background-size: cover;">
+              <a href="./Products.html" class="sector_name">Frozen Vegetables or Fruits</a>
+            </div>
+            <div class="sector_box" style="background-image: url(./static/img/Dried\ sector.png); background-size: cover;">
+              <a href="./Products.html" class="sector_name">Dried Fruits or Herbs</a>
+            </div>
+            <div class="sector_box" style="background-image: url(./static/img/Canned\ sector.png); background-size: cover;">
+              <a href="./Products.html" class="sector_name">Canned or Packed Food</a>
+            </div>
+            <div class="sector_box" style="background-image: url(./static/img/Outher\ products\ sector.png); background-size: cover;">
+              <a href="./Other Products.html" class="sector_name">Other Products</a>
+            </div>
+          </div>
+          
         </div> -->
         
 
@@ -1071,8 +1180,8 @@
         <div class="FooterArea">
           <div class="Footer_contentFrame">
             <div class="Footer_leftFrame reveal">
-              <a href="./Home.html"><img class="Footer_logo" src="./Green Globe Footer logo.png" /></a>
-              <a href="./Home.html"><img class="MopileFooter_logo" src="./Green Globe logo.png" /></a>
+              <a href="./index.html"><img class="Footer_logo" src="./Green Globe Footer logo.png" /></a>
+              <a href="./index.html"><img class="MopileFooter_logo" src="./Green Globe logo.png" /></a>
             </div>
   
             <div class="Footer_rightFrame reveal">
