@@ -256,7 +256,14 @@
     }
     
     
-    
+
+
+    .DivSingleProductBox{
+        width: 350px;
+        height: 345.50px;
+        padding: 20px 0px;
+        gap: 20px;
+    }
     .DivProducts{
         width: 100%;
         height: auto;
